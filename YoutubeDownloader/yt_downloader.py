@@ -4,7 +4,7 @@ from pytube import YouTube
 root = Tk()
 root.geometry('500x300')
 root.resizable(0, 0)
-root.title('Tu propio downloader de YouTube 🎥 by Sandreke')
+root.title('Tu propio downloader de YouTube')
 root.configure(bg='#AACDE2')
 
 Label(root, text='Descarga tus videos 💕', font='arial 20 bold', bg='#AACDE2').place(x=90, y=30)
