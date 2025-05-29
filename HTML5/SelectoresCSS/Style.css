@@ -1,0 +1,50 @@
+/* SELECTOR UNIVERSAL
+*{
+    font-size: 50px;
+    color: hotpink;
+}
+
+SELECTOR DE ETIQUETA
+h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 48px;
+
+}
+
+SELECTOR DE ETIQUETAS MÚLTIPLES 
+h1,h2,h3,h4,h5,h6{
+    color: red;
+}
+
+SELECTOR DESCENDENTE
+p a{
+    background-color: green;
+}
+
+SELECTOR HIJO
+h1 > a{
+    color: coral;
+    font-size: 48px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkslategray;
+}
+
+p > a{
+    color: firebrick;
+    font-size: 72px;
+}
+
+SELECTOR ADYACENTE
+h2 + h3{
+    color: fuchsia;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+*/
+
+[class]{
+    color: red;
+    font-size: 48px;
+    background-color: rosybrown;
+}
